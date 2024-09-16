@@ -10,8 +10,9 @@ function MainArea() {
 
             <div className="Rside">
                 <div className="Profile">
-                    <img src="/mohit.jpeg" alt="dp" style={{height:"60px", padding:"1rem"}} />
-                    Khuvi Ram
+                <img src="/pooja.jpg" alt="dp" style={{height:"60px", width:"50px", padding:"1rem"}} />
+
+                    Pooja Joshi
                 </div>
                 <div className="Pro">
                     <FaUserFriends color="blue" fontSize="2rem" />
@@ -59,32 +60,32 @@ function MainArea() {
             <div className="MainArea">
                 <div className="addStory">
                     <div className="Story">
-                        <img src="/khuvi1.jpeg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
+                        <img src="/pooja.jpg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
                         <br /><br /><br /><br /><br /><br />
-                        Khuvi Ram
+                        Pooja Joshi
                     </div>
                     <div className="Story">
-                        <img src="/pp.jpeg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
+                        <img src="/mohit.jpg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
                         <br /><br /><br /><br /><br /><br />
-                        Priya Joshi
+                        MOHIT
                     </div>
                     <div className="Story">
-                        <img src="/dog.jpg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
+                        <img src="/manish.jpg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
                         <br /><br /><br /><br /><br /><br />
-                        Saurabh
+                        Manish
                     </div>
                     <div className="Story">
-                        <img src="/p.jpg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
+                        <img src="/swati.jpeg" alt="IMG" style={{height:"60px", width:"50px", borderRadius:"60%"}} />
                         <br /><br /><br /><br /><br /><br />
-                        Lucy
+                        Swati
                     </div>
                 </div>
 
                 <div className="message">
                     <div className="text">
                         <div className="Post">
-                            <img src="/khuvi.jpeg" alt="PIC" />
-                            <input type="Mind" placeholder="What's on your mind, Khuvi?" />
+                            <img src="/pooja.jpg" alt="PIC" />
+                            <input type="Mind" placeholder="What's on your mind, Pooja?" />
                         </div>
                         <div className="Call">
                             <div className="ico">
@@ -107,8 +108,8 @@ function MainArea() {
                     <div className="Posted">
                         <div className="poster">
                             <div className="Simplilearn">
-                                <img src="/khuvi.jpeg" alt="Img" style={{height:"50px", width:"50px", borderRadius:"50%"}} />
-                                Khuvi Ram 
+                                <img src="/pooja.jpg" alt="Img" style={{height:"50px", width:"50px", borderRadius:"50%"}} />
+                                Pooja Joshi 
                                 <div className="update"> Updated his cover image.</div>
                             </div>
                             <div className="edit">
@@ -116,11 +117,11 @@ function MainArea() {
                             </div>
                         </div>
                         <div className="caption">
-                            Har Har Mahadev
+                            The best view comes after the Hardest Climb
                         </div>
                         <br />
                         <div className="FacebookImg">
-                            <img src="/dev.jpg" alt="dp" style={{height:"auto", width:"100%"}} />
+                            <img src="/post.jpg" alt="dp" style={{height:"auto", width:"100%"}} />
                         </div>
                         <div className="Comment">
                             <div className="Like">
@@ -154,24 +155,27 @@ function MainArea() {
                 </div>
                 <div className="concise">
                     <div className="Profilee">
-                        <img src={require('../images/1.jpeg')} alt="logo" style={{height:"35px", padding:"1rem"}} />
-                        Himanshu Kaushik
+                    <img src={require('../images/lucy.jpg')} alt="logo" style={{height:"50px", width:"45px", padding:"1rem"}} />
+
+                        Lucy
                     </div>
                     <div className="Profilee">
-                        <img src={require('../images/2.jpeg')} alt="logo" style={{height:"35px", padding:"1rem"}} />
-                        Lakshita Kaushik
-                    </div>
-                    <div className="Profilee">
-                        <img src={require('../images/3.jpeg')} alt="logo" style={{height:"35px", padding:"1rem"}} />
-                        Rohit Sharma
-                    </div>
-                    <div className="Profilee">
-                        <img src="/rocky.jpg" alt="logo" style={{height:"50px", padding:"0.5rem"}} />
+                    <img src={require('../images/rocky.jpg')} alt="logo" style={{height:"50px", width:"45px", padding:"1rem"}} />
+
                         Rocky
                     </div>
                     <div className="Profilee">
-                        <img src={require('../images/1.jpeg')} alt="logo" style={{height:"35px", padding:"1rem"}} />
-                        Vikram Gupta
+                    <img src={require('../images/pp.jpeg')} alt="logo" style={{height:"50px", width:"45px", padding:"1rem"}} />
+
+                        Cute Girl
+                    </div>
+                    <div className="Profilee">
+                    <img src={require("../images/sad.jpg")} alt="logo" style={{height:"50px", width:"45px", padding:"1rem"}} />
+                        Sad Boy
+                    </div>
+                    <div className="Profilee">
+                    <img src={require("../images/pic1.jpeg")} alt="logo" style={{height:"50px", width:"45px", padding:"1rem"}} />
+                        Lakshita
                     </div>
                 </div>
             </div>
